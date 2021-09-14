@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  redis5:
+    image: redis:5.0.13
+    ports:
+      - 6379:6379
+  redis5-32:
+    image: redis:5.0.13-32bit
+    ports:
+      - 6379:6379
+  redis6:
+    image: redis:6.2
+    ports:
+      - 6381:6379

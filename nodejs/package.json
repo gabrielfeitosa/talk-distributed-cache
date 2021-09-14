@@ -1,0 +1,10 @@
+{
+  "name": "talk-distributed-cache",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Feitosa <gabfeitosa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^3.1.2"
+  }
+}
